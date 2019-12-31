@@ -19,7 +19,7 @@ def save_to_excel(df: pd.DataFrame):
 
 def update_counts(df: pd.DataFrame) -> pd.DataFrame:
     """Update Count column values for new `vz` columns."""
-    vz_rows = df[df.columns[7:]]  # take all the values except the first 6 descriptive columns
+    vz_rows = df[df.columns[7:]]  # take all the values except the first 7 descriptive columns
     for i, r in df.iterrows():
         cnt = 0
         vz_row = vz_rows.iloc[i]

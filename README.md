@@ -9,11 +9,18 @@ crunches the samples and modifies *vystup.xlsx* file with an appropriate result.
 
 #### Prerequisites
 
-First, install all the dependencies into your environment.
+First, clone this repository or download the code into your machine.
+
+After that, install all the dependencies into your environment.
 
 ```
 $ pip install -r requirements.txt
 ```
+
+Copy the `vystup.xlsx` file to the `/data` folder. Make sure the name is `vystup.xlsx`,
+the code outputs into the file with this exact name.
+
+Fill the `/data` folder with the sample files you want to process.
 
 #### Run it
 
